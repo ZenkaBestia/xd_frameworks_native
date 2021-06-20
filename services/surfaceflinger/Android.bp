@@ -94,7 +94,7 @@ cc_defaults {
         "skia_renderengine_deps",
         "libdisplayconfig_defaults",
         "unfieddraw_defaults",
-        "libdisplayconfigaidl_defaults",
+        "libdisplayconfigaidl_defaults"
     ],
     cflags: [
         "-DLOG_TAG=\"SurfaceFlinger\"",
@@ -150,7 +150,7 @@ cc_defaults {
         "android.hardware.graphics.composer@2.2-command-buffer",
         "android.hardware.graphics.composer@2.3-command-buffer",
         "android.hardware.graphics.composer@2.4-command-buffer",
-        "display_intf_headers",
+        "display_intf_headers_qssi",
     ],
     export_static_lib_headers: [
         "libcompositionengine",
